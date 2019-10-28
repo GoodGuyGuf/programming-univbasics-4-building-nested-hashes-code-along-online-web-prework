@@ -25,7 +25,7 @@ def bonus
   :hero => {status: "dead"}
   }
   {:capulet =>
-  :heroine => {stauts: "dead"}
+  :heroine => {status: "dead"}
   }
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash

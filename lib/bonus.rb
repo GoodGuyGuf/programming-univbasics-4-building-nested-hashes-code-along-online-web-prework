@@ -21,8 +21,12 @@ def bonus
   }
 
   #code your solution here:
-  :montague => 
-  :hero =>
+  {:montague => 
+  :hero => {status: "dead"}
+  }
+  {:capulet =>
+  :heroine => {stauts: "dead"}
+  }
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
   epic_tragedy

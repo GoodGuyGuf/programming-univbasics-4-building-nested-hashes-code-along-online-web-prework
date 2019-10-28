@@ -21,8 +21,8 @@ def bonus
   }
 
   #code your solution here:
-  hero{status} = hero{status: "dead"}
-heroine{status} = heroine{status: "dead"}
+  hero[status] = hero[status: "dead"]
+heroine[status] = heroine[status: "dead"]
   
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
